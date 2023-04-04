@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(IMG/5.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.top{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    height:120px;
+    width: 100%;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    background-image:url(IMG/4.jpg); 
+}
+.top h1{
+    padding-top: 30px;
+}
+.items{
+    padding: 70px;
+}
+.About-1{
+    background-color: blueviolet;
+    border-radius: 100px;
+}
+.About-1 h1{
+    color: rgb(255, 0, 183);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+.About-1 p{
+    color: azure;
+    padding-left: 60px;
+}
+.About-2{
+    padding-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 60px;
+    row-gap: 70px;
+    justify-items: space-between;
+    padding-top: 80px;
+}
+.A1{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,1.2);
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+.A2{
+    position: relative;
+    width: 1100px;
+    height: 350px;
+    top: -60px;
+    left: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,1.2);
+    background-color: #fff;
+    border-radius: 40px;
+    text-align: center;
+}
+.A2:hover,
+.A1:hover{
+    background-color: #5fbff9;
+}
+.A1:hover i,
+.A2:hover i,
+.A1:hover h3,
+.A1:hover p,
+.A2:hover h3,
+.A2:hover p{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
